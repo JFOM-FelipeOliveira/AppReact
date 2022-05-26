@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 32, 32);
+    padding: 0.5em;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    margin-right: 1em;
+}
+
+.item a{
+    position: relative;
+    background: rgb(34, 32, 32);
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: 10;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.item a:hover{
+    background: aliceblue;
+    color:#000;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px;
+}
+
+img{
+    width: 50px;
+}
+
+img:hover{
+    background-color: rgb(218, 118, 5);
+}

@@ -1,0 +1,46 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+.home h1{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.home p{
+    margin-bottom: 1.5em;
+    color: #7b7b7b;
+}
+
+.home img{
+    width: 400px;
+    margin: 2em 0;
+}
+.home ul{
+    list-style: none;
+}
+
+.home a{
+    position: relative;
+    background: #000;
+    color: rgb(218, 118, 5);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 40;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.home a:hover{
+    background: rgb(218, 118, 5);
+    color:#000;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px;
+}

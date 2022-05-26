@@ -1,0 +1,51 @@
+form{
+    width: 100%;
+    margin: 2em 0;
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:  1em;
+}
+
+.formControl label{
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+.formControl input{
+    padding: 0.7em;
+    border-radius: 0;
+    border: none;
+}
+
+.formControl input::placeholder{
+    color: #7b7b7b;
+}
+
+.formControl select{
+    padding: 0.7em;
+    border-radius: 0;
+    border: none;
+}
+
+.formControl button{
+    position: relative;
+    background: rgb(34, 32, 32);
+    color: rgb(218, 118, 5);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    font-weight: 10;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+.formControl button:hover{
+    background: rgb(218, 118, 5);
+    color:#000;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px;
+}

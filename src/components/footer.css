@@ -1,0 +1,25 @@
+.footer{
+    background-color: #222;
+    color: aliceblue;
+    padding: 2em;
+    text-align: center;
+}
+
+.socialList{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.socialList li{
+    margin: 0 1em;
+}
+
+.socialList li:hover{
+    color: rgb(218, 118, 5);
+}
+
+.socialList svg{
+    font-size: 1.5em;
+    cursor: pointer;
+}
